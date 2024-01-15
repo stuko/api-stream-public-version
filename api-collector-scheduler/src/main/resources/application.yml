@@ -1,0 +1,45 @@
+spring:
+  profiles:
+
+logging:
+  level:
+    root: INFO
+
+spring.application.name: api-collector-scheduler
+
+spring.jpa:
+  database: postgresql
+  show-sql: true
+  hibernate.ddl-auto: update
+
+spring.datasource:
+  driver-class-name: org.postgresql.Driver
+# jdbc-url: postgresql://postgre:{POSTGRE_PORT}/postgres
+  username: pgapp
+  password: asdfasdf11
+  hikari:
+    connectionTimeout: 20000
+    maximumPoolSize: 5
+
+spring.quartz:
+  scheduler-name: QuartzScheduler
+  properties.org.quartz:
+    scheduler.instanceId: AUTO
+    threadPool:
+      threadCount: 20
+      threadNamePrefix: QuartzScheduler
+    jobStore:
+      tablePrefix: QRTZ_
+      isClustered: true
+      class: org.quartz.impl.jdbcjobstore.JobStoreTX
+      driverDelegateClass: org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+      useProperties: true
+      misfireThreshold: 60000
+
+spring.kafka:
+#  bootstrap-servers: kafka:{KAFKA_PORT}
+  producer:
+    key-serializer: org.apache.kafka.common.serialization.StringSerializer
+    value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  template.default-topic: test1
+

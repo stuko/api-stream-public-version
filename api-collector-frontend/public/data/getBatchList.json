@@ -1,0 +1,36 @@
+{
+    "Item": [
+                [    
+                    {
+                        "id" : "BAT_1234567",
+                        "ImageURL": "",
+                        "Title": "기업 정보 현황 API 배치",
+                        "SubTitle": "다트의 기업 현황 정보 수집",
+                        "SubDesc": "하루에 한번 조회 하며 결과를 정제 하여 DB에 저장 해야 함.",
+                        "FirstBtn": "상세보기",
+                        "Value": "R",
+                        "SecondBtn": "수정하기"
+                    },
+                    {
+                        "id" : "BAT_1234568",
+                        "ImageURL": "",
+                        "Title": "나의 대출 현황 API 배치",
+                        "SubTitle": "KCB의 올크레딧 대출 API 정보 수집",
+                        "SubDesc": "하루에 한번 조회 하며 결과를 정제 하여 DB에 저장 해야 함.",
+                        "FirstBtn": "상세보기",
+                        "Value": "G",
+                        "SecondBtn": "수정하기"
+                    },
+                    {
+                        "id" : "BAT_1234569",
+                        "ImageURL": "",
+                        "Title": "나이스 대출 정보조회 배치",
+                        "SubTitle": "나이스 API를 몰래 수집",
+                        "SubDesc": "하루에 한번 조회 하며 결과를 정제 하여 DB에 저장 해야 함.",
+                        "FirstBtn": "상세보기",
+                        "Value": "Y",
+                        "SecondBtn": "수정하기"
+                    }
+                ]
+             ]
+}

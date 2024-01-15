@@ -1,0 +1,87 @@
+version: '3'
+
+services:
+  elasticsearch:
+    restart: always
+    #build:
+    #  extra_hosts:
+    #    - "mongo:${MONGO_IP}"         
+    #    - "elastic:${ELASTIC_IP}"               
+    #    context: elasticsearch/
+    #    args:
+    #      ELK_VERSION: $ELK_VERSION    
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.12.0
+    environment:
+      - ES_JAVA_OPTS=-Xms2048m -Xmx2048m
+      - discovery.type=single-node
+      - TZ=Asia/Seoul      
+      - MONGO_IP=${MONGO_IP}
+      - ELASTIC_IP=${ELASTIC_IP}      
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    healthcheck:
+      test: "wget -q -O - http://192.168.57.243:9200/_cat/health"
+      interval: 1s
+      timeout: 30s
+      retries: 300
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - ../volume/elasticsearch/data:/usr/share/elasticsearch/data
+    networks:
+      - monstache-network
+
+  kibana:
+    restart: always
+    #build:
+    #  extra_hosts:
+    #    - "mongo:${MONGO_IP}"         
+    #    - "elastic:${ELASTIC_IP}"               
+    #    context: logstash/
+    #    args:
+    #      ELK_VERSION: $ELK_VERSION    
+    image: docker.elastic.co/kibana/kibana:7.12.0
+    environment:
+      - TZ=Asia/Seoul           
+      - MONGO_IP=${MONGO_IP}
+      - ELASTIC_IP=${ELASTIC_IP}      
+      - SERVER_PORT=5601
+      # - SERVER_NAME=kibana.example.org
+      - ELASTICSEARCH_HOSTS=http://192.168.57.243:9200
+    expose:
+      - 5601
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+    networks:
+      - monstache-network
+
+  monstache:
+    restart: always
+    image: rwynn/monstache:rel5
+    #build:
+    #  extra_hosts:
+    #    - "mongo:${MONGO_IP}"         
+    #    - "elastic:${ELASTIC_IP}"               
+    environment:
+      - TZ=Asia/Seoul           
+      - MONGO_IP=${MONGO_IP}
+      - ELASTIC_IP=${ELASTIC_IP}      
+    command: -f ./monstache.config.toml &
+    volumes:
+      - ../volume/monstache/config/monstache.config.toml:/monstache.config.toml
+    depends_on:
+      - elasticsearch
+    links:
+      - elasticsearch
+    ports:
+      - "8080:8080"
+    networks:
+      - monstache-network
+
+networks:
+  monstache-network:

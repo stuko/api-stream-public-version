@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stuko.data.api.collector.dao.UserDAO">
+
+    <select id="read" resultType="com.stuko.data.api.collector.vo.UserVO">
+        /* SQL */
+	</select>
+    <insert id="create">
+		/* SQL */
+	</insert>
+    <update id="update">
+		/* SQL */
+	</update>
+    <delete id="delete">
+		/* SQL */
+	</delete>
+
+</mapper>
+

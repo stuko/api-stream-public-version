@@ -1,0 +1,19 @@
+diff a/api-collector-frontend/src/components/alarm/Alarm.js b/api-collector-frontend/src/components/alarm/Alarm.js	(rejected hunks)
+@@ -1,9 +1,10 @@
+ import React from 'react';
+ 
+-export default function Alarm(){
+-    return(
+-        <p>
+-          Alarm
+-        </p>
+-    );
++export default function Alarm() {
++    return (
++        < p >
++        Alarm
++        < /p>
++)
++    ;
+ }
+\ No newline at end of file

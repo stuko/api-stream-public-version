@@ -1,0 +1,44 @@
+logging:
+  level:
+    ROOT: DEBUG
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.mongo.MongoDataAutoConfiguration
+  datasource:
+    platform: postgres
+    username: pgapp
+    password: asdfasdf11
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://postgre:5432/postgres
+    jdbc-url: jdbc:postgresql://postgre:5432/postgres
+    data:
+      name: api-datasource
+      hikari:
+        url: jdbc:postgresql://postgre:5432/postgres
+        connection-timeout: 30000
+        maximum-pool-size: 10
+        minimum-idle: 5
+        auto-commit: false
+        driver-class-name: org.postgresql.Driver
+        username: pgapp
+        password: asdfasdf11
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+api:
+  collector:
+    mongo:
+      max: 50
+      min: 20
+    kafka:
+      #      broker: ${KAFKA_IP}
+      #      port: ${KAFKA_PORT}
+      #      bootstrap: kafka1:${KAFKA_PORT},kafka2:${KAFKA_PORT},kafka3:${KAFKA_PORT}
+      topic: TOPOLOGY_REFRESH
+      partition: 3
+      replication: 1
+env:
+  nodeList:
+    localhost: localhost

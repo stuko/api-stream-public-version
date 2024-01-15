@@ -1,0 +1,1182 @@
+<!--
+https://github.com/NorthwoodsSoftware/GoJS/blob/master/samples/processFlow.html
+-->
+
+<html>
+<meta charset="utf-8">
+<title>DUNA Simulation</title>
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .zeta-menu-bar {
+            color: #fff;
+            background-color: #3f51b5;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .zeta-menu {
+            margin: 0;
+            padding: 0;
+        }
+
+        .zeta-menu li {
+            float: left;
+            list-style: none;
+            position: relative;
+        }
+
+        .zeta-menu li:hover {
+            background: white;
+        }
+
+        .zeta-menu li:hover > a {
+            color: hotpink;
+        }
+
+        .zeta-menu a {
+            color: white;
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+
+        .zeta-menu ul {
+            background: #eee;
+            border: 1px solid silver;
+            display: none;
+            padding: 0;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            width: 180px;
+        }
+
+        .zeta-menu ul li {
+            float: none;
+        }
+
+        .zeta-menu ul li:hover {
+            background: #ddd;
+        }
+
+        .zeta-menu ul li:hover a {
+            color: black;
+        }
+
+        .zeta-menu ul a {
+            color: black;
+        }
+
+        .zeta-menu ul ul {
+            left: 100%;
+            top: 0;
+        }
+
+        .zeta-menu ul ul li {
+            float: left;
+            margin-right: 10px;
+        }
+    </style>
+    <link href="/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="/css/jquery-confirm.min.css" type="text/css">
+    <script language="javascript" src="/js/go.js"></script>
+    <script language="javascript" src="/js/jquery.min.js"></script>
+    <style>
+        #table {
+            border: 1px solid #000000;
+            border-collapse: collapse;
+            table-layout: fixed;
+            word-break: break-all;
+            width: 520px;
+        }
+
+        #table th {
+            border: 1px solid #000000;
+            padding: 2px;
+        }
+
+        #table td {
+            border: 1px solid #000000;
+            padding: 2px;
+        }
+
+        #table td {
+            padding-right: 2px;
+        }
+        /*
+        #table td input :nth-of-type(odd) {
+            width: 20px;
+        }
+        */
+        .gsfBackground {
+            border-color: #feab8a;
+            font-size: 11;
+            margin-bottom: 3;
+        }
+    </style>
+
+    <script language="javascript" src="/js/Tabullet-textarea.js"></script>
+    <script>
+
+
+        var currentProperty = [];
+        const $go = go.GraphObject.make;
+
+        function init() {
+
+            myDiagram =
+                $go(go.Diagram, "myDiagramDiv",  // must name or refer to the DIV HTML element
+                    {
+                        grid: $go(go.Panel, "Grid",
+                            $go(go.Shape, "LineH", {stroke: "lightgray", strokeWidth: 0.5}),
+                            $go(go.Shape, "LineH", {stroke: "gray", strokeWidth: 0.5, interval: 10}),
+                            $go(go.Shape, "LineV", {stroke: "lightgray", strokeWidth: 0.5}),
+                            $go(go.Shape, "LineV", {stroke: "gray", strokeWidth: 0.5, interval: 10})
+                        ),
+                        allowDrop: true,  // must be true to accept drops from the Palette
+                        "draggingTool.dragsLink": true,
+                        "draggingTool.isGridSnapEnabled": true,
+                        "linkingTool.isUnconnectedLinkValid": true,
+                        "linkingTool.portGravity": 20,
+                        "relinkingTool.isUnconnectedLinkValid": true,
+                        "relinkingTool.portGravity": 20,
+                        "relinkingTool.fromHandleArchetype":
+                            $go(go.Shape, "Diamond", {
+                                segmentIndex: 0,
+                                cursor: "pointer",
+                                desiredSize: new go.Size(8, 8),
+                                fill: "tomato",
+                                stroke: "darkred"
+                            }),
+                        "relinkingTool.toHandleArchetype":
+                            $go(go.Shape, "Diamond", {
+                                segmentIndex: -1,
+                                cursor: "pointer",
+                                desiredSize: new go.Size(8, 8),
+                                fill: "darkred",
+                                stroke: "tomato"
+                            }),
+                        "linkReshapingTool.handleArchetype":
+                            $go(go.Shape, "Diamond", {
+                                desiredSize: new go.Size(7, 7),
+                                fill: "lightblue",
+                                stroke: "deepskyblue"
+                            }),
+                        rotatingTool: $go(TopRotatingTool),  // defined below
+                        "rotatingTool.snapAngleMultiple": 15,
+                        "rotatingTool.snapAngleEpsilon": 15,
+                        "undoManager.isEnabled": true
+                    });
+
+            // when the document is modified, add a "*" to the title and enable the "Save" button
+            myDiagram.addDiagramListener("Modified", function (e) {
+                var button = document.getElementById("SaveButton");
+                if (button) button.disabled = !myDiagram.isModified;
+                var idx = document.title.indexOf("*");
+                if (myDiagram.isModified) {
+                    if (idx < 0) document.title += "*";
+                } else {
+                    if (idx >= 0) document.title = document.title.substr(0, idx);
+                }
+            });
+
+            // Define a function for creating a "port" that is normally transparent.
+            // The "name" is used as the GraphObject.portId, the "spot" is used to control how links connect
+            // and where the port is positioned on the node, and the boolean "output" and "input" arguments
+            // control whether the user can draw links from or to the port.
+            function makePort(name, spot, output, input) {
+                // the port is basically just a small transparent square
+                return $go(go.Shape, "Circle",
+                    {
+                        fill: null,  // not seen, by default; set to a translucent gray by showSmallPorts, defined below
+                        stroke: null,
+                        desiredSize: new go.Size(7, 7),
+                        alignment: spot,  // align the port on the main Shape
+                        alignmentFocus: spot,  // just inside the Shape
+                        portId: name,  // declare this object to be a "port"
+                        fromSpot: spot, toSpot: spot,  // declare where links may connect at this port
+                        fromLinkable: output, toLinkable: input,  // declare whether the user may draw links to/from here
+                        cursor: "pointer"  // show a different cursor to indicate potential link point
+                    });
+            }
+
+            var nodeSelectionAdornmentTemplate =
+                $go(go.Adornment, "Auto",
+                    $go(go.Shape, {fill: null, stroke: "deepskyblue", strokeWidth: 1.5, strokeDashArray: [4, 2]}),
+                    $go(go.Placeholder)
+                );
+
+            var nodeResizeAdornmentTemplate =
+                $go(go.Adornment, "Spot",
+                    {locationSpot: go.Spot.Right},
+                    $go(go.Placeholder),
+                    $go(go.Shape, {
+                        alignment: go.Spot.TopLeft,
+                        cursor: "nw-resize",
+                        desiredSize: new go.Size(6, 6),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    }),
+                    $go(go.Shape, {
+                        alignment: go.Spot.Top,
+                        cursor: "n-resize",
+                        desiredSize: new go.Size(6, 6),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    }),
+                    $go(go.Shape, {
+                        alignment: go.Spot.TopRight,
+                        cursor: "ne-resize",
+                        desiredSize: new go.Size(6, 6),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    }),
+
+                    $go(go.Shape, {
+                        alignment: go.Spot.Left,
+                        cursor: "w-resize",
+                        desiredSize: new go.Size(6, 6),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    }),
+                    $go(go.Shape, {
+                        alignment: go.Spot.Right,
+                        cursor: "e-resize",
+                        desiredSize: new go.Size(6, 6),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    }),
+
+                    $go(go.Shape, {
+                        alignment: go.Spot.BottomLeft,
+                        cursor: "se-resize",
+                        desiredSize: new go.Size(6, 6),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    }),
+                    $go(go.Shape, {
+                        alignment: go.Spot.Bottom,
+                        cursor: "s-resize",
+                        desiredSize: new go.Size(6, 6),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    }),
+                    $go(go.Shape, {
+                        alignment: go.Spot.BottomRight,
+                        cursor: "sw-resize",
+                        desiredSize: new go.Size(6, 6),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    })
+                );
+
+            var nodeRotateAdornmentTemplate =
+                $go(go.Adornment,
+                    {locationSpot: go.Spot.Center, locationObjectName: "CIRCLE"},
+                    $go(go.Shape, "Circle", {
+                        name: "CIRCLE",
+                        cursor: "pointer",
+                        desiredSize: new go.Size(7, 7),
+                        fill: "lightblue",
+                        stroke: "deepskyblue"
+                    }),
+                    $go(go.Shape, {
+                        geometryString: "M3.5 7 L3.5 30",
+                        isGeometryPositioned: true,
+                        stroke: "deepskyblue",
+                        strokeWidth: 1.5,
+                        strokeDashArray: [4, 2]
+                    })
+                );
+
+            myDiagram.nodeTemplate =
+                $go(go.Node, "Spot",
+                    {locationSpot: go.Spot.Center},
+                    new go.Binding("location", "loc", go.Point.parse).makeTwoWay(go.Point.stringify),
+                    {selectable: true, selectionAdornmentTemplate: nodeSelectionAdornmentTemplate},
+                    {resizable: true, resizeObjectName: "PANEL", resizeAdornmentTemplate: nodeResizeAdornmentTemplate},
+                    {rotatable: true, rotateAdornmentTemplate: nodeRotateAdornmentTemplate},
+                    new go.Binding("angle").makeTwoWay(),
+                    // the main object is a Panel that surrounds a TextBlock with a Shape
+                    $go(go.Panel, "Auto",
+                        {name: "PANEL"},
+                        new go.Binding("desiredSize", "size", go.Size.parse).makeTwoWay(go.Size.stringify),
+                        $go(go.Shape, "Rectangle",  // default figure
+                            {
+                                portId: "", // the default port: if no spot on link data, use closest side
+                                fromLinkable: true, toLinkable: true, cursor: "pointer",
+                                fill: "white",  // default color
+                                strokeWidth: 2
+                            },
+                            new go.Binding("figure"),
+                            new go.Binding("fill")),
+                        $go(go.TextBlock,
+                            {
+                                font: "bold 11pt Helvetica, Arial, sans-serif",
+                                margin: 8,
+                                maxSize: new go.Size(160, NaN),
+                                wrap: go.TextBlock.WrapFit,
+                                editable: true
+                            },
+                            new go.Binding("text").makeTwoWay())
+                    ),
+                    // four small named ports, one on each side:
+                    makePort("T", go.Spot.Top, false, true),
+                    makePort("L", go.Spot.Left, true, true),
+                    makePort("R", go.Spot.Right, true, true),
+                    makePort("B", go.Spot.Bottom, true, false),
+                    { // handle mouse enter/leave events to show/hide the ports
+                        mouseEnter: function (e, node) {
+                            showSmallPorts(node, true);
+                        },
+                        mouseLeave: function (e, node) {
+                            showSmallPorts(node, false);
+                        },
+                        click: function(e, obj) {
+                            loadModuleProperties(obj.part.data); 
+                        }
+                    }
+                );
+
+            function showSmallPorts(node, show) {
+                node.ports.each(function (port) {
+                    if (port.portId !== "") {  // don't change the default port, which is the big shape
+                        port.fill = show ? "rgba(0,0,0,.3)" : null;
+                    }
+                });
+            }
+
+            var linkSelectionAdornmentTemplate =
+                $go(go.Adornment, "Link",
+                    $go(go.Shape,
+                        // isPanelMain declares that this Shape shares the Link.geometry
+                        {isPanelMain: true, fill: null, stroke: "deepskyblue", strokeWidth: 0})  // use selection object's strokeWidth
+                );
+
+            myDiagram.linkTemplate =
+                $go(go.Link,  // the whole link panel
+                    {selectable: true, selectionAdornmentTemplate: linkSelectionAdornmentTemplate},
+                    {relinkableFrom: true, relinkableTo: true, reshapable: true},
+                    {
+                        routing: go.Link.AvoidsNodes,
+                        curve: go.Link.JumpOver,
+                        corner: 5,
+                        toShortLength: 4
+                    },
+                    new go.Binding("points").makeTwoWay(),
+                    $go(go.Shape,  // the link path shape
+                        {isPanelMain: true, strokeWidth: 2}),
+                    //$go(go.Shape, { isPanelMain: true, stroke: "black", strokeWidth: 7 }),
+                    //$go(go.Shape, { isPanelMain: true, stroke: "gray", strokeWidth: 5 }),
+                    //$go(go.Shape, { isPanelMain: true, stroke: "white", strokeWidth: 3, name: "PIPE", strokeDashArray: [10, 10] }),
+
+                    $go(go.Shape,  // the arrowhead
+                        {toArrow: "Standard", stroke: null}),
+                    $go(go.Panel, "Auto",
+                        new go.Binding("visible", "isSelected").ofObject(),
+                        $go(go.Shape, "RoundedRectangle",  // the link shape
+                            {fill: "#F8F8F8", stroke: null}),
+                        $go(go.TextBlock,
+                            {
+                                textAlign: "center",
+                                font: "10pt helvetica, arial, sans-serif",
+                                stroke: "#919191",
+                                margin: 2,
+                                minSize: new go.Size(10, NaN),
+                                editable: true
+                            },
+                            new go.Binding("text").makeTwoWay())
+                    )
+                    ,{ // handle mouse enter/leave events to show/hide the ports
+                        click: function(e, obj) {
+                          loadModuleProperties(obj.part.data); 
+                        }
+                    }
+                );
+
+            load();  // load an initial diagram from some JSON text
+
+            // initialize the Palette that is on the left side of the page
+            myPalette =
+                $go(go.Palette, "myPaletteDiv",  // must name or refer to the DIV HTML element
+                    {
+                        maxSelectionCount: 1,
+                        nodeTemplateMap: myDiagram.nodeTemplateMap,  // share the templates used by myDiagram
+                        linkTemplate: // simplify the link template, just in this Palette
+                            $go(go.Link,
+                                { // because the GridLayout.alignment is Location and the nodes have locationSpot == Spot.Center,
+                                    // to line up the Link in the same manner we have to pretend the Link has the same location spot
+                                    locationSpot: go.Spot.Center,
+                                    selectionAdornmentTemplate:
+                                        $go(go.Adornment, "Link",
+                                            {locationSpot: go.Spot.Center},
+                                            $go(go.Shape,
+                                                {isPanelMain: true, fill: null, stroke: "deepskyblue", strokeWidth: 0}),
+                                            $go(go.Shape,  // the arrowhead
+                                                {toArrow: "Standard", stroke: null})
+                                        )
+                                },
+                                {
+                                    routing: go.Link.AvoidsNodes,
+                                    curve: go.Link.JumpOver,
+                                    corner: 5,
+                                    toShortLength: 4
+                                },
+                                new go.Binding("points"), 
+                                $go(go.Shape,  // the link path shape
+                                    {isPanelMain: true, strokeWidth: 2}),
+                                $go(go.Shape,  // the arrowhead
+                                    {toArrow: "Standard", stroke: null})
+                            ),
+                        model: new go.GraphLinksModel([  // specify the contents of the Palette
+                            {text: "START", figure: "Parallelogram", fill: "lightyellow" , name : "", kind : "START", count:"1"},
+                            {text: "HTTP", figure: "Parallelogram", fill: "lightyellow" , name : "", kind : "HTTP", count:"1"},
+                            {text: "END", figure: "Junction", fill: "lightskyblue" , name : "", kind : "END", count:"1"},
+                            {text: "DBMS", figure: "Database", fill: "#FFFFFF" , name : "", kind : "DBMS", count:"1"},
+                            {text: "SQL", figure: "Database", fill: "#CE0620" , name : "", kind : "SQL", count:"1"},
+                            {text: "MONGO", figure: "FramedRectangle", fill: "#C00620" , name : "", kind : "MONGO", count:"1"},
+                            {text: "WAIT", figure: "RoundedRectangle", fill: "#00ff00" , name : "", kind : "WAIT", count:"1"},
+                            {text: "API", figure: "Ellipse", fill: "lightgray" , name : "", kind : "API", count:"1"},
+                            {text: "SELECTOR", figure: "Ellipse", fill: "lightgray" , name : "", kind : "SELECTOR", count:"1"},
+                            {text: "FILE", figure: "Ellipse", fill: "lightgray" , name : "", kind : "FILE", count:"1"},
+                            {text: "TRANSFORM", figure: "Ellipse", fill: "lightgray" , name : "", kind : "TRANSFORM", count:"1"},
+                            {text: "FUNCTION", figure: "Ellipse", fill: "lightgray" , name : "", kind : "FUNCTION", count:"1"},
+                            {text: "RANGE", figure: "Ellipse", fill: "lightgray" , name : "", kind : "RANGE", count:"1"},
+                            /*
+                            {text: "API Caller", figure: "RoundedRectangle", fill: "#ccff99"},
+                            {text: "Script", figure: "RoundedRectangle", fill: "#66ffff"},
+                            {text: "Add Filter", figure: "RoundedRectangle", fill: "#00ff00"},
+                            {text: "Remove Filter", figure: "RoundedRectangle", fill: "#ffcc99"},
+                            {text: "Transform Filter", figure: "RoundedRectangle", fill: "#ff99ff"},
+                            {text: "Aggregate Filter", figure: "RoundedRectangle", fill: "#00ffcc"}
+                            */
+                        ], [
+                            // the Palette also has a disconnected Link, which the user can drag-and-drop
+                            {points: new go.List(go.Point).addAll([new go.Point(0, 0), new go.Point(30, 0), new go.Point(30, 40), new go.Point(60, 40)])}
+                        ])
+                    });
+        }
+
+
+        function TopRotatingTool() {
+            go.RotatingTool.call(this);
+        }
+
+        go.Diagram.inherit(TopRotatingTool, go.RotatingTool);
+
+        /** @override */
+        TopRotatingTool.prototype.updateAdornments = function (part) {
+            go.RotatingTool.prototype.updateAdornments.call(this, part);
+            var adornment = part.findAdornment("Rotating");
+            if (adornment !== null) {
+                adornment.location = part.rotateObject.getDocumentPoint(new go.Spot(0.5, 0, 0, -30));  // above middle top
+            }
+        };
+
+        /** @override */
+        TopRotatingTool.prototype.rotate = function (newangle) {
+            go.RotatingTool.prototype.rotate.call(this, newangle + 90);
+        };
+        // end of TopRotatingTool class
+
+
+        // Show the diagram's model in JSON format that the user may edit
+        function save() {
+            saveDiagramProperties();  // do this first, before writing to JSON
+            // document.getElementById("mySavedModel").value = myDiagram.model.toJson();
+            myDiagram.isModified = false;
+        }
+
+        function load() {
+            // if (document.getElementById("mySavedModel") != null) {
+                // myDiagram.model = go.Model.fromJson(document.getElementById("mySavedModel").value);
+                // loadDiagramProperties();  // do this after the Model.modelData has been brought into memory
+            // }dir
+            
+        }
+
+        function saveDiagramProperties() {
+            myDiagram.model.modelData.position = go.Point.stringify(myDiagram.position);
+        }
+
+        function loadDiagramProperties() {
+            // set Diagram.initialPosition, not Diagram.position, to handle initialization side-effects
+            var pos = myDiagram.model.modelData.position;
+            if (pos) myDiagram.initialPosition = go.Point.parse(pos);
+        }
+
+        function getKey(){
+            return 'K-' + (Math.random()*10000000);
+        }
+
+        function getProperties(target,name){
+            var src = [];
+            if("START" == name){
+                src.push({id:getKey(),name:'brokerServer',value:'localhost:9092'});
+                src.push({id:getKey(),name:'cunsumerGroupName', value:'consumerGroupName'});
+                src.push({id:getKey(),name:'autoCommit',value:'true'});
+                src.push({id:getKey(),name:'autoOffsetReset',value:'latest'});
+                src.push({id:getKey(),name:'keyDeserializer',value:'org.apache.kafka.common.serialization.StringDeserializer'});
+                src.push({id:getKey(),name:'valueDeserializer',value:'org.apache.kafka.common.serialization.StringDeserializer'});
+                src.push({id:getKey(),name:'consumerTopic',value:'topicName'});
+                src.push({id:getKey(),name:'numOfPartition',value:'1'});
+                src.push({id:getKey(),name:'replicationFactor',value:'1'});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("END" == name){
+                src.push({id:getKey(),name:'brokerServer',value:'localhost:9092'});
+                src.push({id:getKey(),name:'cunsumerGroupName', value:'consumerGroupName'});
+                src.push({id:getKey(),name:'autoCommit',value:'true'});
+                src.push({id:getKey(),name:'autoOffsetReset',value:'latest'});
+                src.push({id:getKey(),name:'keySerializer',value:'org.apache.kafka.common.serialization.StringSerializer'});
+                src.push({id:getKey(),name:'valueSerializer',value:'org.apache.kafka.common.serialization.StringSerializer'});
+                src.push({id:getKey(),name:'numOfPartition',value:'1'});
+                src.push({id:getKey(),name:'replicationFactor',value:'1'});
+                src.push({id:getKey(),name:'producerTopic',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("SQL" == name){
+                src.push({id:getKey(),name:'sql',value:''});
+                src.push({id:getKey(),name:'datasource',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("DBMS" == name){
+                src.push({id:getKey(),name:'name',value:''});
+                src.push({id:getKey(),name:'url',value:''});
+                src.push({id:getKey(),name:'driver',value:''});
+                src.push({id:getKey(),name:'id',value:''});
+                src.push({id:getKey(),name:'pw',value:''});
+                src.push({id:getKey(),name:'max',value:''});
+                src.push({id:getKey(),name:'min',value:''});
+                src.push({id:getKey(),name:'validation',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("MONGO" == name){
+                src.push({id:getKey(),name:'db',value:'TopologyGroups'});
+                src.push({id:getKey(),name:'collection',value:'TopologyGroup1'});
+                src.push({id:getKey(),name:'mongoSql',value:''});
+                src.push({id:getKey(),name:'mongoSqlType',value:'SELECT'});
+            }else if("WAIT" == name){
+                src.push({id:getKey(),name:'brokerServer',value:'localhost:9092'});
+                src.push({id:getKey(),name:'wait',value:'60000'});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("API" == name){
+                src.push({id:getKey(),name:'api',value:''});
+                src.push({id:getKey(),name:'parameter',value:''});
+                src.push({id:getKey(),name:'header',value:''});
+                src.push({id:getKey(),name:'method',value:'GET'});
+                src.push({id:getKey(),name:'proxyIp',value:''});
+                src.push({id:getKey(),name:'proxyPort',value:''});
+                src.push({id:getKey(),name:'brokerServer',value:'localhost:9092'});
+                src.push({id:getKey(),name:'numOfPartition',value:'1'});
+                src.push({id:getKey(),name:'replicationFactor',value:'1'});
+                // src.push({id:getKey(),name:'apiKey',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("SELECTOR" == name){
+                src.push({id:getKey(),name:'select',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("FILE" == name){
+                src.push({id:getKey(),name:'fileName',value:''});
+                src.push({id:getKey(),name:'line',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("TRANSFORM" == name){
+                src.push({id:getKey(),name:'variables',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("FUNCTION" == name){
+                src.push({id:getKey(),name:'name',value:''});
+                src.push({id:getKey(),name:'source',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("RANGE" == name){
+                src.push({id:getKey(),name:'name',value:''});
+                src.push({id:getKey(),name:'range',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("HTTP" == name){
+                src.push({id:getKey(),name:'port',value:''});
+                src.push({id:getKey(),name:'brokerServer',value:'localhost:9092'});
+                src.push({id:getKey(),name:'cunsumerGroupName', value:'consumerGroupName'});
+                src.push({id:getKey(),name:'autoCommit',value:'true'});
+                src.push({id:getKey(),name:'autoOffsetReset',value:'latest'});
+                src.push({id:getKey(),name:'keyDeserializer',value:'org.apache.kafka.common.serialization.StringDeserializer'});
+                src.push({id:getKey(),name:'valueDeserializer',value:'org.apache.kafka.common.serialization.StringDeserializer'});
+                src.push({id:getKey(),name:'keySerializer',value:'org.apache.kafka.common.serialization.StringSerializer'});
+                src.push({id:getKey(),name:'valueSerializer',value:'org.apache.kafka.common.serialization.StringSerializer'});
+                src.push({id:getKey(),name:'numOfPartition',value:'1'});
+                src.push({id:getKey(),name:'replicationFactor',value:'1'});
+                src.push({id:getKey(),name:'producerTopic',value:''});
+                src.push({id:getKey(),name:'consumerTopic',value:''});
+                src.push({id:getKey(),name:'count',value:'1'});
+            }else if("LINK" == name){
+                src.push({id:getKey(),name:'condition',value:''});
+                src.push({id:getKey(),name:'kind',value:'FILTER'});
+            }
+            return src;
+        }
+
+        function loadModuleProperties(e){
+            console.log("load module key : " + e.key);
+            console.log("load module topologyId : " + e.topologyId);
+            console.log("load module property : " + e.property);
+            console.log("load module text : " + e.text);
+            console.log("load module from : " + e.from);
+            console.log("load module to : " + e.to);
+            
+            var src = [];
+            var type = e.text;
+            if(e.property){
+              console.log("property count : " + e.property.length);
+              src = getProperties(e,type);
+              console.log("source count : " + src.length);
+              for(var i = 0; i < e.property.length; i++){
+                console.log(e.property[i].name);
+                var ele = {id:e.property[i].id,name: e.property[i].name,value:e.property[i].value};
+                var find = false;
+                for(var j = 0; j < src.length ; j++){
+                    console.log("{} vs {} ", ele.name, src[j].name);
+                    if(src[j].name == ele.name){
+                        src[j] = ele;
+                        find = true;
+                        break;
+                    } 
+                }
+                if(!find) src.push(ele);
+              } 
+              e['property'] = src;
+              console.log("## show property");
+            }else{
+                if(e.from && e.to){
+                    console.log("this is link");
+                    type = 'LINK';
+                    src = getProperties(e,type);
+                }else{
+                    console.log("this is not link");
+                    src = getProperties(e,type);
+                } 
+                e['property'] = src;
+                console.log("## not show property : " + e.property);
+            }
+            $('#moduleNameShow').text(type + "'s key = " + e.key);
+            resetTabullet(e.property);
+        }
+
+
+
+    </script>
+    <script>
+        $(function () {
+
+            $.ajax({
+                type: "POST",
+                crossDomain: true,
+                url: "/apicert/checkLogin",
+                cache: "false",
+                dataType: "json",
+                headers: {  'Access-Control-Allow-Origin': '*' },
+                contentType: "application/json; charset=utf-8",
+                data: {},
+                success: function(data) {
+                    console.log(data);
+                    if(data.result != 'true') {
+                        $.alert({
+                            theme: 'modern',
+                            title: '경고',
+                            content: '로그인후 이용해주시기 바랍니다.',
+                        });
+
+                        document.location.href='/login';
+                    }
+                }
+            });
+
+            $(".zeta-menu li").click(function () {
+                $('ul:first', this).show();
+            }, function () {
+                $('ul:first', this).hide();
+            });
+            $(".zeta-menu>li:has(ul)>a").each(function () {
+                $(this).html($(this).html() + ' &or;');
+            });
+            $(".zeta-menu ul li:has(ul)")
+                .find("a:first")
+                .append("<p style='float:right;margin:-3px'>&#9656;</p>");
+        });
+    </script>
+    <script>
+
+        $(function () {
+
+            $('#topology_group_select').on('change', function() {
+                var param = {
+                    topologyGroup: $('#topology_group_select').val()
+                }
+                changeTopologyGroup(param);
+            });
+
+            $('#topology_select').on('change', function() {
+                if($('#topology_select').val() == ''){
+                    // 신규 입력
+                    $( "#topologyName" ).prop( "disabled", false );
+                    return;
+                }else{
+                    $( "#topologyName" ).prop( "disabled", true );
+                }
+                var param = {
+                    topologyGroup: $('#topology_group_select').val(),
+                    topologyId: $('#topology_select').val()
+                }
+                changeTopology(param);
+            });
+
+            $('#topology_save').on('click', function() {
+                if($('#topology_group_select').val() == null || $('#topology_group_select').val() == ''
+                 || ($('#topology_select').val() == '' && ($('#topologyName').val() == null || $('#topologyName').val() == '')) ){
+                     $.alert({
+                        theme: 'modern',
+                        title: '경고',
+                        content: '토폴로지그룹을 선택하시고,토폴로지 선택을 신규입력으로 선택하시고, 토폴로지 이름을 입력해 주셔야 합니다.',
+                     });
+                     return false;
+                }
+                
+                myDiagram.model.modelData.position = go.Point.stringify(myDiagram.position);
+                var param = myDiagram.model.toJson();
+                myDiagram.isModified = false;
+        
+                $.confirm({
+                    title: '확인',
+                    content: '저장하시겠습니까?',
+                    buttons: {
+                        confirm: function () {
+                            saveTopology(param);
+                        },
+                        cancel: function () {
+                            $.alert('취소되었습니다.');
+                        }
+                    }
+                });
+
+                return false;
+            });
+
+            $('#topology_delete').on('click', function() {
+                if($('#topology_group_select').val() == null || $('#topology_group_select').val() == ''
+                 || $('#topology_select').val() == null || $('#topology_select').val() == ''){
+                     $.alert({
+                        theme: 'modern',
+                        title: '경고',
+                        content: '토폴로지그룹을 선택하시고, 토폴로지를 선택해 주셔야 합니다.',
+                     });
+                     return false;
+                 }
+                
+                 
+                var param = {
+                    topologyGroup: $('#topology_group_select').val(),
+                    topologyId: $('#topology_select').val()
+                }
+                $.confirm({
+                    title: '확인',
+                    content: '삭제하시겠습니까?',
+                    buttons: {
+                        confirm: function () {
+                            deleteTopology(param);
+                        },
+                        cancel: function () {
+                            $.alert('취소되었습니다.');
+                        }
+                    }
+                });
+                
+                return false;
+            });
+
+            $('#topology_run').on('click', function() {
+                if($('#topology_group_select').val() == null || $('#topology_group_select').val() == ''
+                 || $('#topology_select').val() == null || $('#topology_select').val() == ''){
+                     $.alert({
+                        theme: 'modern',
+                        title: '경고',
+                        content: '토폴로지그룹을 선택하시고, 토폴로지를 선택해 주셔야 합니다.',
+                     });
+                     return false;
+                 }
+                
+                 
+                var param = {
+                    topic: $("#topology_select option:checked").text(),
+                    message: $("#topology_select option:checked").text()
+                }
+                $.confirm({
+                    title: '확인',
+                    content: '실행하시겠습니까?',
+                    buttons: {
+                        confirm: function () {
+                            runTopology(param);
+                        },
+                        cancel: function () {
+                            $.alert('취소되었습니다.');
+                        }
+                    }
+                });
+                
+                return false;
+            });
+
+
+
+            $('#topology_restart').on('click', function() {
+                var param = {
+                    cmd: 'api-stream'
+                }
+
+                $.confirm({
+                    title: '확인',
+                    content: '토폴로지를 반영하시겠습니까?',
+                    buttons: {
+                        confirm: function () {
+                            restartTopology(param);
+                        },
+                        cancel: function () {
+                            $.alert('취소되었습니다.');
+                        }
+                    }
+                });
+                return false;
+         });
+
+         readAllApi();
+
+        });
+    
+
+        
+
+    function restartTopology(param){
+        $.ajax({
+            type: "POST",
+            crossDomain: true,
+            url: "/ApiStreamRestartContainer",
+            cache: "false",
+            dataType: "json",
+            headers: {  'Access-Control-Allow-Origin': '*' },
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(param),
+            success: function(data) {
+                $.alert('토폴로지가 반영 되었습니다.');
+            }
+        });
+    }
+
+    function readAllApi(){
+        $.ajax({
+            type: "GET",
+            crossDomain: true,
+            url: "/apicert/readAllApi",
+            cache: "false",
+            dataType: "json",
+            headers: {  'Access-Control-Allow-Origin': '*' },
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(""),
+            success: function(data) {
+                console.log(data);
+                for(var row in data){
+                    console.log(row);
+                    $('#api_list').append('<li>' + data[row].apiId + ': ' + data[row].apiName);
+                }
+            }
+        });
+    
+    }
+
+    function changeTopologyGroup(param){
+        $.ajax({
+            type: "POST",
+            crossDomain: true,
+            url: "/apicert/getTopologyList",
+            cache: "false",
+            dataType: "json",
+            headers: {  'Access-Control-Allow-Origin': '*' },
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(param),
+            success: function(data) {
+                if(data != null){
+                    $('#topology_select').empty();
+                    $('#topology_select').append($('<option>', { 
+                            value: '',
+                            text : '신규입력' 
+                        }));
+                    $.each(data, function (i, item) {
+                        var id = item.topologyId;
+                        var txt = item.topologyName;
+                        console.log("you changed the topology group so, select " + txt + "," + id);
+                        $('#topology_select').append('<option value="'+id+'">'+txt+ '</option>');
+                    });
+                    if($('#topology_select').val() == ''){
+                        // 신규 입력
+                        $( "#topologyName" ).prop( "disabled", false );
+                        return;
+                    }else{
+                        $( "#topologyName" ).prop( "disabled", true );
+                    }
+                }
+            }
+        });
+    }
+
+    function changeTopology(param){
+        $.ajax({
+            type: "POST",
+            crossDomain: true,
+            url: "/apicert/getTopologyDetail",
+            cache: "false",
+            headers: {  'Access-Control-Allow-Origin': '*' },
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(param),
+            success: function(data) {
+                if(data != null){
+                    var json = JSON.stringify(data);
+                    console.log(json);
+                    myDiagram.model = go.Model.fromJson(json);
+                    loadDiagramProperties();  
+                    $('#topologyIdShow').text($('#topology_select').val());
+                }
+            }
+        });
+    }
+
+    function saveTopology(param){
+        var json = JSON.parse(param);
+        json['topologyId'] = $('#topology_select').val();
+        if($('#topology_select').val() != ''){
+            json['topologyName'] = $( "#topology_select option:selected" ).text();
+        }else{
+            json['topologyName'] = $('#topologyName').val();
+        }
+        console.log("topologyName is " +json['topologyName'] );
+        json['topologyGroup'] = $('#topology_group_select').val();
+        // json['property'] = currentProperty;
+        console.log('#########[' + json + ']########');
+        console.log('#########[' + JSON.stringify(json) + ']########');
+        $.ajax({
+            type: 'post',
+            crossDomain: true,
+            dataType: "json",
+            headers: {  'Access-Control-Allow-Origin': '*' },
+            contentType: "application/json; charset=utf-8",
+            url: "/apicert/saveTopology",
+            cache: "false",
+            data: JSON.stringify(json),
+            success: function(data) {
+                $.alert({
+                    theme: 'modern',
+                    title: '경고',
+                    content: '요청하신 토폴로지를 저장하였습니다.',
+                });
+                document.location.reload();
+            },
+            error : function(jqXHR, textStatus, errorThrown){
+                if(jqXHR.status != '200'){
+                    console.log(textStatus + ": " + jqXHR.status + " " + errorThrown);
+                    $.alert({
+                        theme: 'modern',
+                        title: '경고',
+                        content: '토폴로지를 생성하지 못했습니다.',
+                    });
+                }else{
+                    $.alert({
+                        theme: 'modern',
+                        title: '경고',
+                        content: '토폴로지를 저장하였습니다.',
+                    });
+                }
+                document.location.reload();
+            }
+        });
+    }
+
+    function deleteTopology(param){
+        $.ajax({
+            type: 'post',
+            crossDomain: true,
+            dataType: "json",
+            headers: {  'Access-Control-Allow-Origin': '*' },
+            contentType: "application/json; charset=utf-8",
+            url: "/apicert/deleteTopology",
+            cache: "false",
+            data: JSON.stringify(param),
+            success: function(data) {
+                console.log('success : ' + data);
+                $.alert({
+                    theme: 'modern',
+                    title: '경고',
+                    content: '요청하신 토폴로지를 삭제하였습니다.',
+                });
+                document.location.reload();
+            },
+            error : function(jqXHR, textStatus, errorThrown){
+                if(jqXHR.status != '200'){
+                    console.log(textStatus + ": " + jqXHR.status + " " + errorThrown);
+                    $.alert({
+                        theme: 'modern',
+                        title: '경고',
+                        content: '토폴로지를 삭제하지 못했습니다.',
+                    });
+                }else{
+                    $.alert({
+                        theme: 'modern',
+                        title: '경고',
+                        content: '토폴로지를 삭제하였습니다.',
+                    });
+                }
+                document.location.reload();                        
+            }
+        });  
+    }
+
+    function runTopology(param){
+        $.ajax({
+            type: "POST",
+            crossDomain: true,
+            url: "/scheduler/run",
+            cache: "false",
+            headers: {  'Access-Control-Allow-Origin': '*' },
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(param),
+            success: function(data) {
+                if(data != null){
+                    var json = JSON.stringify(data);
+                    console.log(json);
+                    $.alert({
+                        theme: 'modern',
+                        title: '경고',
+                        content: '토폴로지를 실행하였습니다.',
+                    });
+                }
+            }
+        });
+    }
+
+    </script>
+
+</head>
+<body>
+<div class='zeta-menu-bar'>
+    <ul class="zeta-menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/schedule">Scheduler</a></li>
+        <li><a href="/cert">API Cert Key</a></li>
+        <li><a href="/api">API Management</a></li>
+        <li><a href="/index-jquery.html">Topology</a></li>
+    </ul>
+</div>
+
+<div style="margin-left:25px;margin-top:25px;">
+    <div style="margin-left:25px;">
+        <form>
+            <div>
+                <span>Select Topology Group</span>
+                <span>
+                    <select id="topology_group_select">
+                        <option value="">Select</option>
+                        <option value="TopologyGroup1">TopologyGroup1</option>
+                        <option value="TopologyGroup2">TopologyGroup2</option>
+                        <option value="TopologyGroup3">TopologyGroup3</option>
+                    </select>
+                </span>
+                <span style="margin-left:20px;">Select Topology</span>
+                <span>
+                    <select id="topology_select">
+                    </select>
+                </span>
+                <span style="margin-left:20px;">Topology Name</span>
+                <span>
+                    <input type="text" id="topologyName" size="30" disabled="true" value="영문만 입력해 주세요">
+                </span>
+                <span style="margin-left:20px;"><button class="btn btn-primary" id="topology_save">Save</button></span>
+                <span><button class="btn btn-danger" id="topology_delete">Remove</button></span>
+                <span><button class="btn btn-danger" id="topology_run">Run</button></span>
+                <span><button class="btn btn-primary" id="topology_restart">Apply</button></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="sample">
+    <div style="width: 100%; display: flex; justify-content: space-between">
+        <div id="myPaletteDiv"
+             style="width: 200px; margin-right: 2px; background-color: whitesmoke; border: solid 1px black"></div>
+        <div id="myDiagramDiv" style="flex-grow: 1; height: 800px; border: solid 1px black"></div>
+        <div id="myPropertyDiv" style="width: 560px; border: solid 1px black">
+            <div>
+                <div class="container">
+                    <div>
+                        <div>
+                            <h4>
+                                <span id='topologyIdShow'></span>'s 속성들 (모듈명 : <span id='moduleNameShow'></span>)
+                            </h4>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="padding-right:5px;">
+                            <table id="table">
+                                <thead>
+                                <tr data-tabullet-map="id">
+                                    <th style="width:35px;" data-tabullet-map="name">속성</th>
+                                    <th style="width:55px;" data-tabullet-map="value">값</th>
+                                    <th style="width:17px;" data-tabullet-type="edit">저장</th>
+                                    <th style="width:17px;" data-tabullet-type="delete">수정</th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                    <div>
+                        <h5>API 사용 가능 목록</h5>
+                        <ul id="api_list"></ul>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        init();
+        function resetTabullet(src) {
+            $("#table").tabullet({
+                data: src,
+                action: function (mode, data) {
+                    if (mode === 'save') {
+                        data['id'] = getKey();
+                        var ele = {id:data.id,name:data.name,value:data.value};
+                        src.push(ele);
+                        console.log("raw : ["+src+"]");
+                        var j = {property: src};
+                        console.log("string : ["+JSON.stringify(j)+"]");
+                    }
+                    if (mode === 'edit') {
+                        for (var i = 0; i < src.length; i++) {
+                            console.log("Edit : ["+src[i].id+"]["+data.id+"]");
+                            if (src[i].id == data.id) {
+                                var ele = {id:data.id,name:data.name,value:data.value};
+                                src[i] = ele;
+                            }
+                        }
+                    }
+                    if (mode == 'delete') {
+                        for (var i = 0; i < src.length; i++) {
+                            if (src[i].id == data) {
+                                src.splice(i, 1);
+                                break;
+                            }
+                        }
+                    }
+                    resetTabullet(src);
+                }
+            });
+        }
+        resetTabullet([]);
+    </script>
+    <script src="/js/jquery-confirm.min.js"></script>
+
+</body>
+</html>

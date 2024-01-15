@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--
+	<bean id="ApiStreamRestartContainer" class="java.util.HashMap">
+		<constructor-arg>
+			<map key-type="java.lang.String" value-type="java.lang.Object">
+				<entry key="container-host" value="${kronos.rmi.host}" />
+				<entry key="container-port-count"
+					value="${kronos.rmi.port.count}" />
+				<entry key="container-port-start" value="${kronos.rmi.port}" />
+				<entry key="container-port-offset"
+					value="${kronos.rmi.port.offset}" />
+				<entry key="rmi-disabled" value="${kronos.rmi.disabled}" />
+			</map>
+		</constructor-arg>
+	</bean>
+
+
+        <bean id="ApiStreamRestartContainerConnectionPool" class="org.apache.commons.dbcp2.BasicDataSource" scope="prototype">
+                <property name="driverClassName" value="${kronos.container.business.datasource.driver}" />
+                <property name="url"
+                        value="${kronos.container.business.datasource.url}" />
+                <property name="username" value="${kronos.container.business.datasource.id}" />
+                <property name="password" value="${kronos.container.business.datasource.pw}" />
+                <property name="maxTotal" value="${kronos.container.business.datasource.max}" />
+                <property name="maxIdle" value="${kronos.container.business.datasource.min}" />
+                <property name="maxWaitMillis" value="${kronos.container.business.datasource.wait}" />
+        </bean>
+
+
+	<bean id="ApiStreamRestartContainer_Sample"
+		class="com.stuko.kronos.business.impl.SQLMapperImpl" scope="prototype">
+		<property name="name" value="ApiStreamRestartContainer_Sample" />
+		<property name="resultAdd" value="false" />
+		<property name="connectionPool" ref="ApiStreamRestartContainerConnectionPool" />
+		<property name="statement">
+			<value><![CDATA[
+				SELECT 1
+		  	 ]]></value>
+		</property>
+	</bean>
+	<bean id="kronos.container.load.on.startup" class="java.util.ArrayList" scope="prototype">
+		<constructor-arg>
+			<list>
+				<value>ApiStreamRestartContainer</value>
+			</list>
+		</constructor-arg>
+	</bean>
+-->
+
+</beans>            
+
+
+
+
+
+
+

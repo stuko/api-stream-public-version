@@ -1,0 +1,42 @@
+HELP.md
+.gradle
+build/
+gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code ###
+.vscode/
+
+### node ###
+!**/node_modules/
+
+### volume ###
+/volume/mongo/data/
+/volume/mongo/data/diagnostic.data/
+/volume/mongo/data/**/*
+/volume/postgres/data/**/*
+/volume/nginx/log/**/*
+/volume/storm/tmp/**/*
+/volume/elasticsearch/
+/volume/elasticsearch/**/*
+
+**/nohup.out

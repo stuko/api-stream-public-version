@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GRP Version="2.0.0.1" Mode="0" TemplateObjectCnt="0">
+    <GrTxtBrushArr Size="3">
+        <GrTxtBrush Type="0" GradientType="0" Color="fffbe31e" GradientColor1="ff000000" GradientColor2="ff000000" KeepRate="false" Alpha="255" IgnoreBgColor="false"/>
+        <GrTxtBrush Type="0" GradientType="0" Color="ff2c51fd" GradientColor1="ff000000" GradientColor2="ff000000" KeepRate="false" Alpha="255" IgnoreBgColor="false"/>
+        <GrTxtBrush Type="0" GradientType="0" Color="ff680000" GradientColor1="ff000000" GradientColor2="ff000000" KeepRate="false" Alpha="255" IgnoreBgColor="false"/>
+    </GrTxtBrushArr>
+    <GrTxtOutlineArr Size="2">
+        <GrTxtOutline Color="ff000000" Ratio="0.10000000000000001"/>
+        <GrTxtOutline Color="00fcffff" Ratio="0.10000000000000001"/>
+    </GrTxtOutlineArr>
+    <GrTxtShadowArr Size="1">
+        <GrTxtShadow Color="00000000" ThickRatio="0.15000000596046448" Shadow_Type2="4"/>
+    </GrTxtShadowArr>
+    <GrTimelineViewMode Mode="13" output_width="1280" output_height="720"/>
+    <GrEncodingPath Path="D:\workspace\api\api_project\api-collector-frontend\public\mov\"/>
+    <GrVideoArr Size="1">
+        <GrVideo>
+            <GrVideoData FileName="D:\workspace\api\api_project\api-collector-frontend\public\mov\sample-2.mp4" SegStart="0" SegEnd="14740" FadeType="3" ScreenTransformType="0" ScreenTransformTime="0" Mute="false" Volume="1" Tempo="1"/>
+            <GrVideoColorAdjust/>
+            <GrVideoFilter VideoColor="0" VideoColorType="0" VideoEffect="0" VideoEffectValue="20" FilterUseLookupFile="0" FilterUseVignetteFile="0"/>
+            <GrVideoTextureAdjust/>
+        </GrVideo>
+    </GrVideoArr>
+    <GrObjArr Size="26">
+        <GrObj Type="4">
+            <GrTxtData Title="만들고자 하시는
+토폴로지 이름을 
+입력해 주세요" GrEffectType="0" BackEffectType="1000" FirstEffectTime="0" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="750" TotalSeg="520" VideoIndex="0" EffectListID="1" PosX="37.955727" PosY="57.986111" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" Tempo="1"/>
+            <GrTxtAttArr Size="26">
+                <GrTxtAtt Code="47564" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46308" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44256" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51088" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53664" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54260" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51648" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51012" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47141" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51452" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49464" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50836" FontSize="60" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="최초 실행할 모듈입니다.
+이 모듈은
+Kafka 라는 Queue에서 
+데이터를 읽어 오게 됩니다." GrEffectType="0" BackEffectType="1000" FirstEffectTime="0" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="1450" TotalSeg="300" VideoIndex="0" EffectListID="2" PosX="50" PosY="37.962963" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" Tempo="1"/>
+            <GrTxtAttArr Size="53">
+                <GrTxtAtt Code="52572" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="52488" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49892" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54665" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54624" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47784" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46280" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47784" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46280" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="75" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="102" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="107" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46972" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="81" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45936" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53552" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51069" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50612" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50724" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44172" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="36" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="최초 Start 모듈은
+배치에서 읽어오게될
+Topic 이름을
+설정 해 줘야 합니다." GrEffectType="0" BackEffectType="1000" FirstEffectTime="0" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="1450" TotalSeg="610" VideoIndex="0" EffectListID="3" PosX="49.414063" PosY="65.046295" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" Tempo="1"/>
+            <GrTxtAttArr Size="46">
+                <GrTxtAtt Code="52572" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="52488" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="116" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="116" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47784" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46280" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48176" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="52824" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51069" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50612" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50724" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44172" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46112" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="84" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="111" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="112" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="105" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="99" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51012" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49444" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51480" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50556" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54633" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="이제 이 모듈들을
+연결하기 위해
+화살표를 
+생성해 주도록 
+하겠습니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="2224" TotalSeg="696" VideoIndex="0" EffectListID="4" PosX="49.283852" PosY="40.162037" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="39">
+                <GrTxtAtt Code="51060" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51228" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47784" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46280" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46308" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51012" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50672" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44208" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44592" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50948" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54868" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49332" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54364" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49373" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49457" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51452" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46020" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47197" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44192" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49845" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="40" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="Start 모듈은
+Kafka 라는 Queue 시스템의 연결 정보를
+입력해 줘야 합니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="4110" TotalSeg="620" VideoIndex="0" EffectListID="5" PosX="46.484375" PosY="34.953705" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="48">
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="116" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="116" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47784" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46280" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="75" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="102" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="107" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46972" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="81" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49828" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53596" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50672" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44208" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48372" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47141" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51480" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50556" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54633" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="ConsumerGroupName 은
+해당 토폴로지에서
+모두 동일하게 
+같은 이름으로
+입력해야 합니다.
+
+유일한 값으로
+입력하시면 됩니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="4790" TotalSeg="590" VideoIndex="0" EffectListID="6" PosX="51.432293" PosY="51.15741" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="76">
+                <GrTxtAtt Code="67" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="111" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="110" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="115" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="109" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="71" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="111" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="112" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="78" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="109" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45817" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53664" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54260" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51648" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47784" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46160" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46041" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51068" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44172" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44057" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51004" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47141" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50556" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54633" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50976" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51068" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54620" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44050" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51004" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47141" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="연결 화살표에서는
+데이터의 조건을
+지정할 수 있습니다.
+
+여기에 지정된 조건에 
+해당하는 데이터만
+다음으로 전달 됩니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="5470" TotalSeg="590" VideoIndex="0" EffectListID="7" PosX="51.432293" PosY="51.15741" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="67">
+                <GrTxtAtt Code="50672" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44208" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54868" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49332" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54364" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45936" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53552" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51312" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44148" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51012" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51648" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54624" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49688" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51080" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49845" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50668" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44592" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51648" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46108" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51312" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44148" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45817" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45936" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53552" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47564" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51020" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51004" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51204" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45804" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="SQL 문장을 입력해 주세요
+그 아래에 있는 DataSource 는
+이미 지정된 사용가능한 정보를
+제공합니다.
+
+주로 POSTGRE , DCBIS, TCBIS, PCBIS 가
+되겠네요." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="6090" TotalSeg="670" VideoIndex="0" EffectListID="8" PosX="47.460938" PosY="44.675926" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="103">
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="81" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="76" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47928" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51109" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51012" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47141" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51452" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49464" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50836" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44536" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50500" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47000" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51080" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="68" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="116" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="111" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="99" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48120" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51648" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46108" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49324" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50857" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45733" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54620" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48372" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51228" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44277" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54633" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51452" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="80" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="79" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="84" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="71" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="82" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="69" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="68" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="67" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="66" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="73" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="84" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="67" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="66" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="73" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="80" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="67" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="66" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="73" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46104" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44192" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45348" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50836" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="API는 본 시스템의
+API관리와 인증키 관리 메뉴에서
+이미 설정한 정보를 가져오는 겁니다.
+api 란에는 API 관리 메뉴에서 
+API 키 값을 복사해서 
+넣어 주시면 됩니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="8440" TotalSeg="780" VideoIndex="0" EffectListID="9" PosX="48.632813" PosY="43.51852" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="99">
+                <GrTxtAtt Code="65" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="80" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="73" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48376" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49828" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53596" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="65" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="80" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="73" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44288" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47532" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50752" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51064" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51613" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53412" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44288" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47532" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47700" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45684" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48120" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49444" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54620" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48372" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51256" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50724" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44161" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="112" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="105" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46976" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="65" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="80" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="73" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44288" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47532" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47700" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45684" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="65" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="80" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="73" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53412" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44050" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51012" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48373" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49324" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45347" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50612" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51452" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="Parameter  값은
+이름=값,이름=값...  형식으로 
+추가하시면 됩니다.
+
+여기서 이름은 
+SQL문장의 칼럼이름이 됩니다.
+
+만약 변수를 쓰고 싶으시면
+#{변수}를 사요하시면 됩니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="10110" TotalSeg="680" VideoIndex="0" EffectListID="10" PosX="49.544273" PosY="49.421295" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="106">
+                <GrTxtAtt Code="80" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="109" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="116" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44050" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="61" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44050" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="61" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44050" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54805" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49885" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51004" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="52628" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50668" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44592" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="81" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="76" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47928" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51109" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="52860" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47564" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50557" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48320" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49688" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50416" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44256" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49910" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51004" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="35" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="123" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="48320" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49688" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="125" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49324" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50836" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="예를 들면
+SQL에서 address 라는 칼럼이 있으면
+addr=#{address} 라고 입력하시면
+addr 이라는 이름에 address의 값이 
+전달 됩니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="10810" TotalSeg="630" VideoIndex="0" EffectListID="11" PosX="47.916664" PosY="40.39352" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="89">
+                <GrTxtAtt Code="50696" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46308" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="81" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="76" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="115" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="115" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46972" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="52860" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51080" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51004" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="61" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="35" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="123" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="115" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="115" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="125" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46972" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44256" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47141" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46972" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="115" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="115" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44050" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51204" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45804" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="마지막으로
+End 모듈은
+Kafka Queue의 특정
+Topic에 결과를 
+넣어 주는 기능을 합니다.
+
+참고로 
+Start, End 모듈은
+필수입니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="11550" TotalSeg="730" VideoIndex="0" EffectListID="12" PosX="49.414063" PosY="48.495369" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="84">
+                <GrTxtAtt Code="47560" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51648" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47561" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51004" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="69" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="110" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47784" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46280" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="75" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="102" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="107" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="81" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53945" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51221" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="84" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="111" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="112" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="105" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="99" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44208" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44284" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47484" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45347" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50612" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51452" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45716" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44592" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45733" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51012" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54633" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="52280" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44256" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="83" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="116" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="97" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="116" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="69" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="110" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47784" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46280" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51008" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54596" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49688" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="ProducerTopic 에
+다음이 이어서 토폴로지가
+읽어갈 Topic 이름을 입력해 
+주시면 됩니다." GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="12340" TotalSeg="850" VideoIndex="0" EffectListID="13" PosX="51.041668" PosY="38.773148" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="57">
+                <GrTxtAtt Code="80" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="111" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="100" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="117" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="99" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="101" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="114" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="84" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="111" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="112" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="105" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="99" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50640" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51020" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50612" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49436" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="53664" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54260" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47196" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51648" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44032" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51069" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="50612" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44040" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="84" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="111" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="112" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="105" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="99" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51060" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47492" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51012" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51077" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47141" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54644" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="13" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="51452" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49884" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="47732" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46121" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="46" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="4">
+            <GrTxtData Title="수고하셨습니다 ~~~" GrEffectType="1" BackEffectType="1001" FirstEffectTime="100" BackEffectTime="100" ApplyAll="0" Align="1" StartSeg="14550" TotalSeg="250" VideoIndex="0" EffectListID="15" PosX="51.041668" PosY="38.773148" bTemplateObject="0" TemplateObjectID="-1" BrushType="0" GradientType="0" PlaceHolderType="0" Color="00000000" splunk="T_F1,T_B1,T_FE10,T_BE10" Tempo="1"/>
+            <GrTxtAttArr Size="11">
+                <GrTxtAtt Code="49688" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="44256" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="54616" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49512" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="49845" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45768" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="45796" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="32" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="126" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="126" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+                <GrTxtAtt Code="126" FontSize="32" FontStyle="1" FaceName="Sandoll Ssukssuk 02 Medium" BrushID="2" ShadowID="0" OutlineID="1"/>
+            </GrTxtAttArr>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="750" TotalSeg="500" VideoIndex="0" EffectListID="16" PosX="41.536461" PosY="13.194445" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="1450" TotalSeg="590" VideoIndex="0" EffectListID="17" PosX="19.98698" PosY="25.23148" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="2440" TotalSeg="470" VideoIndex="0" EffectListID="18" PosX="22.265625" PosY="34.259258" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="4110" TotalSeg="560" VideoIndex="0" EffectListID="19" PosX="78.90625" PosY="27.777779" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="4820" TotalSeg="560" VideoIndex="0" EffectListID="20" PosX="78.90625" PosY="31.944445" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="5490" TotalSeg="560" VideoIndex="0" EffectListID="21" PosX="79.6875" PosY="28.703705" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="6170" TotalSeg="560" VideoIndex="0" EffectListID="22" PosX="79.6875" PosY="28.703705" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="8460" TotalSeg="560" VideoIndex="0" EffectListID="23" PosX="79.6875" PosY="28.703705" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="10160" TotalSeg="560" VideoIndex="0" EffectListID="24" PosX="80.078125" PosY="32.870369" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="10840" TotalSeg="560" VideoIndex="0" EffectListID="25" PosX="80.078125" PosY="32.870369" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="11600" TotalSeg="560" VideoIndex="0" EffectListID="26" PosX="80.859375" PosY="58.564812" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+        <GrObj Type="5">
+            <GrImgData Path="C:\ProgramData\GRETECH\GOMMix\clipart\animate\arrow.goma" Width="5" Height="7" KeepRate="1" Position="-1" StartSeg="12390" TotalSeg="560" VideoIndex="0" EffectListID="27" PosX="80.859375" PosY="58.564812" ApngImg="true" bTemplateObject="0" TemplateObjectID="-1" Tempo="1"/>
+        </GrObj>
+    </GrObjArr>
+    <GrAudioArr Size="0"/>
+    <GrEffectArr Size="0"/>
+</GRP>

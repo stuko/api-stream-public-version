@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<!-- ################################################### -->
+	<!-- 		Container Manager							 -->
+	<!-- ################################################### -->
+	<bean id="ContainerManager" class="com.stuko.kronos.impl.ContainerManagerImpl">
+		<property name="configurationManager" ref="ConfigurationManager" />
+		<property name="name" value="KronosContainerManager" />
+		<property name="threadPoolManager" ref="ThreadPoolManager" />
+		<property name="path" value="container" />
+		<property name="collector" ref="EngineStatusManager" />
+		<property name="monitor" value="true" />
+		<property name="containerWaitTime" value="1000" />
+		<property name="loadOnStartup" value="kronos.container.load.on.startup" />
+		<property name="referenceContainerGroups" ref="referenceContainerGroups" />
+	</bean>
+
+	<bean id="referenceContainerGroups" class="java.util.HashMap">
+<!-- 	    <constructor-arg> -->
+<!-- 	        <map key-type="java.lang.String" value-type="com.stuko.kronos.ReferenceContainerGroup"> -->
+<!-- 				<entry key="TXPContainer" value-ref="TXPContainerGroup" /> -->
+<!-- 				<entry key="DunaRuleContainer" value-ref="DunaRuleContainerGroup" /> -->
+<!-- 	        </map> -->
+<!-- 	    </constructor-arg> -->
+	</bean>
+	
+<!-- 	<bean id="TXPContainerGroup" class="com.stuko.kronos.impl.ReferenceContainerGroupImpl" > -->
+<!-- 		<property name="name" value="TXPContainer" /> -->
+<!-- 		<property name="containers"> -->
+<!-- 			<list> -->
+<!-- 				<value>localhost,16710,TXPContainer-1,false</value> -->
+<!-- 			</list> -->
+<!-- 		</property> -->
+<!-- 		<property name="refCount" value="1" /> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="DunaRuleContainerGroup" class="com.stuko.kronos.impl.ReferenceContainerGroupImpl" > -->
+<!-- 		<property name="name" value="DunaRuleContainer" /> -->
+<!-- 		<property name="containers"> -->
+<!-- 			<list> -->
+<!-- 				<value>localhost,16710,DunaRuleContainer-1,false</value> -->
+<!-- 			</list> -->
+<!-- 		</property> -->
+<!-- 		<property name="refCount" value="1" /> -->
+<!-- 	</bean> -->
+
+
+</beans>

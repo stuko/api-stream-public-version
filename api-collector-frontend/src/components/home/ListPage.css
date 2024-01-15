@@ -1,0 +1,26 @@
+  
+.list__itemview{
+  color : #000000;
+}
+
+.gridRoot {
+  display: 'flex';
+  flex-wrap: 'wrap';
+  justify-content: 'space-around';
+  overflow: 'hidden';
+}
+
+.gridList {
+  width: 100%;
+  height: 100%;
+  margin-top:50px;
+  margin-left:50px;
+  text-align: 'center';
+  display: 'flex';
+  flex-direction: 'column';
+  align-items: 'center',
+}
+
+.gridDiv{
+  margin-bottom : 20px;
+}

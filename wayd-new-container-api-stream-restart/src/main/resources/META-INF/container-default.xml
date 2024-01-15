@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+    xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:tx="http://www.springframework.org/schema/mvc"
+    xmlns:util="http://www.springframework.org/schema/util"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.1.xsd">
+
+	<bean id="config"
+		class="com.stuko.kronos.impl.NonForgetfulPropertyPlaceholderConfigurer" scope="prototype">
+		<property name="locations">
+			<list>
+				<value>META-INF/conf/config.properties</value>
+				<value>META-INF/conf/container.root.properties</value>
+				<value>META-INF/deploy/**/*.properties</value>
+			</list>
+		</property>
+		<property name="ignoreUnresolvablePlaceholders" value="true" />
+	</bean>
+
+<!-- 	<bean id="kronos.container.load.on.startup" class="java.util.ArrayList" scope="prototype"> -->
+<!-- 		<constructor-arg> -->
+<!-- 			<list> -->
+<!-- 			</list> -->
+<!-- 		</constructor-arg> -->
+<!-- 	</bean> -->
+
+	<bean id="ConnectionPool" class="org.apache.commons.dbcp2.BasicDataSource" scope="prototype">
+		<property name="driverClassName" value="${kronos.container.business.datasource.driver}" />
+		<property name="url"
+			value="${kronos.container.business.datasource.url}" />
+		<property name="username" value="${kronos.container.business.datasource.id}" />
+		<property name="password" value="${kronos.container.business.datasource.pw}" />
+		<property name="maxTotal" value="${kronos.container.business.datasource.max}" />
+		<property name="maxIdle" value="${kronos.container.business.datasource.min}" />
+		<property name="maxWaitMillis" value="${kronos.container.business.datasource.wait}" />
+	</bean>
+    
+     <bean id="ReferenceContainerGroup" class="com.stuko.kronos.impl.ReferenceContainerGroupImpl" />
+  	 <bean id="ReferenceContainerGroupList" class="java.util.ArrayList" scope="prototype" />
+
+</beans>

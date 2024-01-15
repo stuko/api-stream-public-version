@@ -1,0 +1,9 @@
+.api-body{
+    color:#ffffff;
+    justify-content: 'top';
+    align-items: 'center';
+    flex: 1 ;
+    margin-top:100px;
+    margin-left:5px;
+    margin-right:5px;
+}

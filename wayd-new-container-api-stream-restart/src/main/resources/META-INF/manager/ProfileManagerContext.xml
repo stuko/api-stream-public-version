@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+            
+    <bean id="ProfileManager" class="com.stuko.kronos.impl.ProfileManagerImpl">
+	  	<property name="configurationManager" ref="ConfigurationManager" />
+	  	<property name="lockManager" ref="LockManager" />
+	 	<property name="name" value="ProfileManager" />     
+	 	<property name="threadPoolManager" ref="ThreadPoolManager" />
+	 	<property name="profileContext" ref="ProfileContext" /> 
+	 	<property name="profiles" ref="Profiles" /> 
+	</bean>
+	
+	<bean id="ProfileContext" class="com.stuko.kronos.profile.ProfileContextImpl" scope="prototype">
+	</bean>
+
+	<bean id="Profiles" class="com.stuko.kronos.profile.ProfileImpl" scope="prototype">
+	</bean>	
+            
+</beans>         

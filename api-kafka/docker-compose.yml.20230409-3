@@ -1,0 +1,37 @@
+version: '3.7'
+
+networks:
+ api-net:
+   name: api-net
+   driver: bridge
+   attachable: true
+
+services:
+  api-zookeeper:
+    image: wurstmeister/zookeeper
+    environment:
+      TZ: Asia/Seoul
+    ports:
+      - "${ZOOKEEPER_PORT}:${ZOOKEEPER_PORT}"
+    networks:
+      api-net:
+        aliases:
+          - api-zookeeper
+    restart: always
+  api-kafka:
+    image: wurstmeister/kafka
+    ports:
+      - "${KAFKA_PORT}:${KAFKA_PORT}"
+    networks:
+      api-net:
+        aliases:
+          - api-kafka
+    environment:
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://${KAFKA_IP}:${KAFKA_PORT}
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092
+      KAFKA_ZOOKEEPER_CONNECT: ${ZOOKEEPER_IP}:${ZOOKEEPER_PORT}
+      TZ: Asia/Seoul
+    depends_on:
+      - api-zookeeper
+    restart: always
+

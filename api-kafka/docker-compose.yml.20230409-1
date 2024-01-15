@@ -1,0 +1,20 @@
+version: '3.2'
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    ports:
+      - "${ZOOKEEPER_PORT}:${ZOOKEEPER_PORT}"
+  kafka:
+    image: wurstmeister/kafka:latest
+    ports:
+      - target: ${KAFKA_PORT}
+        published: ${KAFKA_PORT}
+        protocol: tcp
+        mode: host
+    environment:
+      HOSTNAME_COMMAND: "docker info | grep ^Name: | cut -d' ' -f 2"
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:${ZOOKEEPER_PORT}
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://:2${KAFKA_PORT},OUTSIDE://_{HOSTNAME_COMMAND}:${KAFKA_PORT}
+      KAFKA_LISTENERS: INSIDE://:2${KAFKA_PORT},OUTSIDE://:${KAFKA_PORT}
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE

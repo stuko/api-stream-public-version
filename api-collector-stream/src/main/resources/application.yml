@@ -1,0 +1,73 @@
+spring:
+  profiles:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.mongo.MongoDataAutoConfiguration
+
+logging:
+  level:
+    root: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+api:
+  collector:
+    topology-group-name: TopologyGroups
+    mongo:
+      url: "mongo1:${MONGO_PORT}"
+      max: 100
+      min: 50
+      db: TopologyGroups
+    kafka:
+      broker: ${KAFKA_IP}
+      port: ${KAFKA_PORT}
+      bootstrap: "kafka1:${KAFKA_PORT},kafka2:${KAFKA_PORT},kafka3:${KAFKA_PORT}"
+      topic: LOG
+      refreshTopic: TOPOLOGY_REFRESH
+      max: 100
+      partition: 3
+      replication: 1
+      debug: ${STREAM_LOG_DEBUG}
+
+spring.datasource:
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://postgre:${POSTGRE_PORT}/postgres
+  username: pgapp
+  password: asdfasdf11
+
+spring.db.datasource:
+  name:
+    - POSTGRE
+  driverClassName:
+    - org.postgresql.Driver
+  driverUrl:
+    - jdbc:postgresql://postgre:5432/postgres
+  username:
+    - pgapp
+  password:
+    - asdfasdf11
+  maximum:
+    - 50
+  validationQuery:
+    - SELECT 1
+  validationTimeOut:
+    - 30000
+
+limit:
+  check:
+    ip: ${limit_check_ip}
+    port: ${limit_check_port}
+
+topology:
+  refresh: true

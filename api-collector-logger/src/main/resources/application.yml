@@ -1,0 +1,45 @@
+spring:
+  profiles:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.mongo.MongoDataAutoConfiguration
+
+logging:
+  level:
+    root: ERROR
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+
+api:
+  collector:
+    mongo:
+      url: mongo1:${MONGO_PORT}
+      max: 200
+      min: 100
+      db: TopologyGroups
+      log:
+        collection: LOG
+    kafka:
+      broker: kafka1:${KAFKA_PORT}
+      port: ${KAFKA_PORT}
+      bootstrap: kafka1:${KAFKA_PORT}
+      topic:
+        log: LOG
+        refresh: TOPOLOGY_REFRESH
+      max: 100
+      wait: 5000
+      partition: 3
+      replication: 1
+      consumer:
+        group: API-COLLECTOR-LOGGER

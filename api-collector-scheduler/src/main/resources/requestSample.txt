@@ -1,0 +1,29 @@
+curl -X POST -H "Content-Type: application/json" -d "{jobName:test1,jobScheduleTime:2020/07/29 17:10,cronExpression:0/10 * * * * *,topicName=test" http://localhost:7080/scheduler/schedule
+
+curl -X POST -H "Content-Type: application/json" -d "{}" http://localhost:7080/scheduler/jobs
+
+#linux
+curl -H "Content-Type: application/json" \
+-d '{"jobName" : "test1", "jobScheduleTime" : "2020/08/01 14:58", "cronExpression" : "0/10 * * ? * *", "topicName" : "aaa"}' \
+http://localhost:7080/scheduler/schedule
+
+curl -H "Content-Type: application/json" \
+-d '{"jobName" : "test2", "jobScheduleTime" : "2020/08/01 15:12:", "cronExpression" : "0/20 * * ? * *", "topicName" : "bbb"}' \
+http://localhost:7080/scheduler/schedule
+
+curl -X POST -H "Content-Type: application/json" \
+http://localhost:7080/scheduler/jobs
+
+
+## 이중화 서버 구동
+$ cp -r springboot-quartz-cluster/ springboot-quartz-cluster2
+$ cd springboot-quartz-cluster2
+$ code src_main_resources/application.properties
+server.port=7070
+
+$ ./gradlew build
+$ ./gradlew run
+
+SELECT * FROM QRTZ_SCHEDULER_STATE; --> 2개 인스턴스 확인
+
+**Quartz는 내부적인 로직안에서 타임으로 판단하는 부분이 많아서 서버 타임 동기화는 필수이다

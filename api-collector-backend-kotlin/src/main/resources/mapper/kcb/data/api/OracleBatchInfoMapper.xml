@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.stuko.data.api.collector.dao.BatchInfoDAO">
+
+	<select id="read" resultType="map" parameterType="map">
+        /* SQL */
+		SELECT *
+		FROM API_BATCH
+		WHERE BAT_ID = #{BAT_ID}
+	</select>
+	<select id="create" resultType="map" parameterType="map">
+		/* SQL */
+		INSERT INTO API_BATCH(BAT_ID,BAT_NM,,PRCS_EXPLN,ST_TPLG_ID,WRTR_EMP_NO,WRT_DT_TM,CHG_DT_TM,USE_YN)
+		VALUES(#{BAT_ID},#{BAT_NM},#{PRCS_EXPLN},#{ST_TPLG_ID},#{WRTR_EMP_NO},NOW(),NOW(),'Y')
+	</select>
+	<select id="update" resultType="map" parameterType="map">
+		/* SQL */
+		UPDATE API_BATCH
+		SET    BAT_NM = #{BAT_NM}
+		     , PRCS_EXPLN = #{PRCS_EXPLN}
+		     , ST_TPLG_ID = #{ST_TPLG_ID}
+		     , CHG_DT_TM = NOW()
+		     , WRTR_EXP_NO = #{WRTR_EXP_NO}
+		WHERE BAT_ID = #{BAT_ID}
+	</select>
+	<select id="delete" resultType="map" parameterType="map">
+		/* SQL */
+		DELETE
+		FROM API_BATCH
+		WHERE BAT_ID = #{BAT_ID}
+	</select>
+	<select id="list" resultType="list" parameterType="map">
+		/* SQL */
+		SELECT *
+		FROM API_BATCH
+		ORDER BY CHG_DT_TM DESC
+		LIMIT 10
+		OFFSET (#{POS} - 1) * 10
+	</select>
+
+</mapper>
+

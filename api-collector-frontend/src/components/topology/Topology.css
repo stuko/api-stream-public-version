@@ -1,0 +1,16 @@
+  
+.diagram-component {
+  width: 800px;
+  height: 600px;
+  border: solid 1px black;
+  background-color: white;
+}
+
+
+.gsfBackground {   border-color: #feab8a;   font-size: 11;   margin-bottom: 3; } 
+
+.topology-box {width: 100%; display: flex; justify-content: space-between}
+
+.topology-palette {width: 100px; margin-right: 2px; background-color: #282c34;}
+
+.topology-panel {flex-grow: 1; height: 750px; background-color: #FFFFFF;}

@@ -1,0 +1,7 @@
+sudo firewall-cmd --add-service=http --permanent; firewall-cmd --reload
+sudo systemctl stop firewalld
+sudo iptables -t filter -F  
+sudo iptables -t filter -X 
+systemctl restart docker
+
+
