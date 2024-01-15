@@ -43,19 +43,19 @@ install_api_stream.sh 파일의 -e STREAM_LOG_DEBUG=true 로 설정 하면 됨.
 ![image](https://user-images.githubusercontent.com/1683771/164581402-ee2ed399-118f-4ab3-878d-11dd9cc33986.png)
 
 #### API 스트림 메인 화면에 참고 하실 수 있는 동영상이 연결되어 있습니다 ####
->https://github.com/stuko/api-stream-public-version/assets/1683771/d7c85e3d-3ad6-4e1e-9f0d-e8a474ea2ea3
+> https://github.com/stuko/api-stream-public-version/assets/1683771/d7c85e3d-3ad6-4e1e-9f0d-e8a474ea2ea3
 
 #### 수집할 API 정보(URL, API인증키)를 입력하는 동영상입니다. ####
-> https://user-images.githubusercontent.com/1683771/162645925-f23fe328-bf2b-457d-9752-33cda0a7c2a2.mp4
+> https://github.com/stuko/api-stream-public-version/assets/1683771/3bfcf10a-47cc-4a7b-aad6-f66d52ecc87c
 
 #### API 인증키 값을 관리하는 동영상 입니다. ####
->https://user-images.githubusercontent.com/1683771/162645935-cade72cc-a1e3-4fca-aca4-f71e7c78dc7d.mp4
+> https://github.com/stuko/api-stream-public-version/assets/1683771/927b2d3e-4164-45eb-b1e7-b1e9a4586883
 
 #### API 수집을 위한 프로세스정보와 수집결과 정보를 MongoDB에서 확인하는 동영상입니다.  ####
->https://user-images.githubusercontent.com/1683771/162645938-d97c0420-2cb8-4f23-9bd4-b6a5b0fb479c.mp4
+> https://github.com/stuko/api-stream-public-version/assets/1683771/9cc31952-1652-4c35-9289-19170cf633ef
 
 #### API 수집 스케줄을 등록해 주는 동영상입니다. ####
->https://user-images.githubusercontent.com/1683771/162645947-a881877c-da4f-41ee-b347-ecf3ae2b7e3a.mp4
+> https://github.com/stuko/api-stream-public-version/assets/1683771/cbebe558-7a4f-4ac0-981d-18ed19a2a196
 
 #### API 수집 프로세스를 Diagram으로 그리고, 설정하는 동영상 입니다. ####
->https://user-images.githubusercontent.com/1683771/162645955-d912bfad-9c10-409c-b6e2-52aae55d5963.mp4
+> https://github.com/stuko/api-stream-public-version/assets/1683771/18ed2fde-797f-418a-8042-59ce71e9eec8
