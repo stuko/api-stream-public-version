@@ -5,6 +5,16 @@
 
 > 대용량 스트림 처리를 위해, Docker Swam 혹은 K8S에 운영 가능 합니다.
 
+> 사용된 오픈소스들
+> > Nginx
+> > PostgreSQL
+> > Kafka
+> > Quartz
+> > Apache Storm
+> > Spring Boot
+> > Frontend : React  , Backend : Java & Kotlin
+> > Container : Docker (Swarm)
+
 # installation
 > just run    
 > sudo ./install_all.sh
