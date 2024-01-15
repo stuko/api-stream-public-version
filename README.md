@@ -7,12 +7,19 @@
 
 > 사용된 오픈소스들
 > > Nginx
+
 > > PostgreSQL
+
 > > Kafka
+
 > > Quartz
+
 > > Apache Storm
+
 > > Spring Boot
+
 > > Frontend : React  , Backend : Java & Kotlin
+
 > > Container : Docker (Swarm)
 
 # installation
