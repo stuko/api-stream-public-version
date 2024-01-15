@@ -1,5 +1,5 @@
 # wayd-api-collector
-> api-collector는 API 기반으로 제공하는 정보들을 누구나 쉽게 수집할 수 있도록 제공해 드리는 솔루션입니다.
+> api-collector는 API 기반으로 제공하는 정보들을 누구나 쉽게 수집할 수 있도록 제공해 드리는 시스템입니다.
 
 > Apache Airflow 혹은 Nifi와 비교하여 부족한 점이 많지만, 응용과정과 운영과정에서 미세한 차이점이 있었습니다.
 
