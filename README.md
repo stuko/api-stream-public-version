@@ -42,8 +42,8 @@ install_api_stream.sh 파일의 -e STREAM_LOG_DEBUG=true 로 설정 하면 됨.
 > API 프로세스를 설계하는 화면 예시 : gojs 유료 버전을 구매후 사용해 주세요.(워터마크 제거시)
 ![image](https://user-images.githubusercontent.com/1683771/164581402-ee2ed399-118f-4ab3-878d-11dd9cc33986.png)
 
-#### API Collabo 메인 화면에 참고 하실 수 있는 동영상이 연결되어 있습니다 ####
->https://user-images.githubusercontent.com/1683771/162645941-d3c2180b-256f-49a6-8ef3-894900849a16.mp4
+#### API 스트림 메인 화면에 참고 하실 수 있는 동영상이 연결되어 있습니다 ####
+>https://github.com/stuko/api-stream-public-version/assets/1683771/d7c85e3d-3ad6-4e1e-9f0d-e8a474ea2ea3
 
 #### 수집할 API 정보(URL, API인증키)를 입력하는 동영상입니다. ####
 > https://user-images.githubusercontent.com/1683771/162645925-f23fe328-bf2b-457d-9752-33cda0a7c2a2.mp4
