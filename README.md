@@ -20,7 +20,7 @@
 
 > > Spring Boot
 
-> > Frontend : React  , Backend : Java & Kotlin
+> > Frontend : React , JQuery , GoJS(평가판) , Backend : Java & Kotlin
 
 > > Container : Docker (Swarm)
 
